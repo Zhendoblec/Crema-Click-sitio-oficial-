@@ -6,61 +6,25 @@
 }
 
 /*Header*/
-#header {
-  justify-content: space-between;
-  background-color: rgb(0, 0, 0);
-  position: fixed;
-  width: 100%;
-  height: 90px;
-  z-index: 100;
-  display: flex;
-}
 
-.logo {
-  display: flex;
-  align-items: center;
+.navbar{
+padding: 0 0 0 0;
+.navbar-brand img {
+height: 70px;
+border-radius: 70px;
+padding-left: 30px;
 }
-
-.logo img {
-  height: 90px;
-  margin-left: 80px;
-  border-radius: 70px;
+.container-fluid {
+  background-color: black;
 }
-
-#header nav ul li a {
-  justify-content: center center;
+.navbar-Nav .nav-item ,.nav-link, .nav-link.active{
   font-size: 20px;
-  text-align: right;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  padding: 20px;
+  color: white;
+  padding-right: 10px;
 }
-
-#navBar {
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  align-items: center;
-}
-
-#navBar ul {
-  list-style-type: none;
-  justify-content: center center;
-  margin-top: 20px;
 }
 
 /*-----------Main----------------*/
-body iframe {
-  margin-top: 90px;
-  width: 100%;
-  height: 555px;
-}
-
-body {
-  width: 100%;
-  height: 100%;
-}
 
 body {
   background-image: url(../images/fondo3.jpg);
@@ -70,107 +34,45 @@ body {
   background-size: cover;
   width: 100%;
   height: 100%;
-}
 
+iframe {
+  margin-top: 0px;
+  width: 100%;
+  height: 100vh;
+}
 #videos {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 30px;
-}
 
-#videos iframe {
+iframe {
   width: 760px;
   height: 450px;
   justify-content: space-around;
   border-radius: 60px;
+  margin-bottom: 70px;
 }
-
 .iframe2 {
   margin-bottom: 50px;
 }
-
+}
 .imagenes {
   display: flex;
   justify-content: center;
-}
-
-.imagenes__portada img {
+  .imagenes__portada img {
   width: 550px;
   height: 550px;
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   justify-content: center center;
   border-radius: 50px;
 }
-
-/*-----------Footer-------------*/
-#footer {
-  width: 100%;
-  height: 300px;
-  background-color: black;
-  display: flex;
+}
 }
 
-#line {
-  border-left: 2px solid;
-  color: white;
-  height: 80%;
-  align-items: center;
-  margin-top: 30px;
-}
 
-.icons img {
-  width: 30px;
-  padding: 5px;
-  margin: 5px;
-  height: 30px;
-  border: 1px double white;
-  border-radius: 100%;
-}
 
-.cremaClick img {
-  width: 400px;
-  height: 90px;
-  border: none;
-  border-radius: none;
-  padding: 10px;
-}
-
-#caja1 {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 50%;
-  padding: 10px;
-}
-
-#caja2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
-
-.bigFecaZhen img {
-  width: 300px;
-  height: auto;
-  align-items: center;
-}
-
-.copyright {
-  width: 460px;
-  text-align: center;
-  justify-content: center;
-}
-
-.copyright p {
-  color: white;
-  text-align: center;
-  font-size: 10px;
-  margin-top: 10px;
-}
 
 /*--------------Pages Imagenes------------*/
 #relleno {
@@ -276,8 +178,7 @@ body {
 /**----------------------------------Pages Acerca de--------------------------------**/
 #mainacercade {
   background-color: black;
-  border: 1px solid white;
-  border-top: 2px solid white;
+
 }
 
 #bigFeca {
@@ -330,4 +231,67 @@ body {
 
 /**------------Pages Entrevista-----------**/
 
+/*-----------Footer-------------*/
+#footer {
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  display: flex;
+
+#line {
+  border-left: 2px solid;
+  color: white;
+  height: 80%;
+  align-items: center;
+  margin-top: 30px;
+}
+.icons img {
+  width: 30px;
+  padding: 5px;
+  margin: 5px;
+  height: 30px;
+  border: 1px double white;
+  border-radius: 100%;
+}
+.cremaClick img {
+  width: 400px;
+  height: 90px;
+  border: none;
+  border-radius: none;
+  padding: 10px;
+}
+#caja1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+}
+#caja2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.bigFecaZhen img {
+  width: 300px;
+  height: auto;
+  align-items: center;
+}
+}
+
+.copyright {
+  width: 460px;
+  text-align: center;
+  justify-content: center;
+p {
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 10px;
+}
+}
 /*# sourceMappingURL=style.css.map */
