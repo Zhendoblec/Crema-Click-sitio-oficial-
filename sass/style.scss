@@ -15,12 +15,13 @@
      margin-top:90px;
      width: 100%;
      height: 555px;
+     justify-content: center center;
  
  }
  
  body{
     
-     width: 100%;
+     width: 100%vh;
      height: 100%;
  }
  body {
@@ -29,11 +30,12 @@
  background-position: center center;
  background-attachment: scroll;
  background-size: cover;
- width: 100%;
+ width: 90%;
  height: 100%;
  }
 
 #videos { 
+    width: 100%;
     display:flex ;
     flex-direction:column;
     align-items: center;
@@ -43,10 +45,7 @@
 #videos iframe{
     width:100%;
     height: 450px;
-    justify-content: space-around;
     border-radius: 60px;
-    
-
 }
 
 .iframe2 {
@@ -95,7 +94,7 @@ justify-content: center;
  border-radius: 100%;
  }
  
- .cremaClick img {
+ .cremaClick {
  width: 400px;
  height: 90px;
  border: none;
@@ -123,104 +122,102 @@ justify-content: center;
  width: 50%;
  }
  
- .bigFecaZhen img {
- 
-     width: 300px;
-     height: auto;
-     align-items: center;
- }
- 
- .copyright {
- width: 460px;
- text-align: center;
- justify-content: center ;
- 
- 
- 
- }
-  .copyright p {
- color: white;
- text-align: center;
- font-size: 10px;
- margin-top: 10px;
- 
- 
-  }
-  
- /*--------------Pages Imagenes------------*/
- 
- #relleno { 
-     gap: 5px;
-     padding: 10px;
- margin-top: 70px;    
- display: grid;
- justify-content: space-between;
- grid-template-columns: repeat(3, 1fr);
- grid-template-rows: 350px 350px;
- grid-template-areas: 
- "gridImg1 gridImg2 gridImg3"
- "gridImg1 gridImg4 gridImg3"
- ;
- }
- 
- 
- 
- .gridImag1 {
- grid-area: gridImg1;
- 
- }
- 
- .gridImag2 {
- grid-area: gridImg2;
- ;
- 
- }
- 
- .gridImag3 {
- grid-area: gridImg3;
- 
- }
- 
- .gridImag4 {
- grid-area: gridImg4;
- 
- }
- 
- 
- 
- .gridImag1 {
-     background-image: url(../images/fon.jpg);
-     background-size: cover;
-     border-radius: 50px;
- }
- 
- .gridImag2 {
-     background-image: url(../images/images4.jpg) ;
-     background-size: cover;
-     border-radius: 50px;
- }
- 
- .gridImag3 {
-     background-image: url(../images/images.jpg);
-     background-size: cover;
-     border-radius:50px;
- }
- 
- .gridImag4 {
-     background-image: url(../images/correccion.webp);
-     background-size: cover;
-     border-radius: 50px;
- }
- 
- 
- 
- #centro {
- display:flex;
- justify-content: center ;
- }
- 
- 
- .gridImag5 { background-image: url(../images/seccionimagenes.jpg);
+.bigFecaZhen img {
+width: 300px;
+height: auto;
+align-items: center;
+}
+
+.copyright {
+width: 460px;
+text-align: center;
+justify-content: center ;
+
+
+
+}
+.copyright p {
+color: white;
+text-align: center;
+font-size: 10px;
+margin-top: 10px;
+}
+
+
+/*--------------Pages Imagenes------------*/
+
+#relleno { 
+gap: 5px;
+padding: 10px;
+margin-top: 70px;    
+display: grid;
+justify-content: space-between;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 350px 350px;
+grid-template-areas: 
+"gridImg1 gridImg2 gridImg3"
+"gridImg1 gridImg4 gridImg3"
+;
+}
+
+
+
+.gridImag1 {
+grid-area: gridImg1;
+
+}
+
+.gridImag2 {
+grid-area: gridImg2;
+;
+
+}
+
+.gridImag3 {
+grid-area: gridImg3;
+
+}
+
+.gridImag4 {
+grid-area: gridImg4;
+
+}
+
+
+
+.gridImag1 {
+    background-image: url(../images/fon.jpg);
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.gridImag2 {
+    background-image: url(../images/images4.jpg) ;
+    background-size: cover;
+    border-radius: 50px;
+}
+
+.gridImag3 {
+    background-image: url(../images/images.jpg);
+    background-size: cover;
+    border-radius:50px;
+}
+
+.gridImag4 {
+    background-image: url(../images/correccion.webp);
+    background-size: cover;
+    border-radius: 50px;
+}
+
+
+
+#centro {
+display:flex;
+justify-content: center ;
+}
+
+
+.gridImag5 { background-image: url(../images/seccionimagenes.jpg);
      background-size: cover;
  }
      
@@ -244,42 +241,7 @@ justify-content: center;
  margin-left: 30%;
  border-radius: 50px;
  }
- 
- 
- @media (max-width: 768px)
-         {
-             .logo img { height: 60px;
-                 margin-left: 5px;
-                 border-radius: 40px;
-                 
-             }
-             _#header{ justify-content: left; }
-             #header nav ul li a{ 
-                 font-size: 15px;
-                 text-align:center center;
-                 padding: 5px;
-                 align-items: start;
-             }
- 
- 
- 
- 
-             
-             
-             
-             #relleno { grid-template-columns: repeat(1, 1fr);
-             grid-template-rows: repeat(4, 300px);
-             grid-template-areas: 
-             "gridImg1"
-             "gridImg4"
-             "gridImg3"
-             "gridImg2";
- 
- }
- 
- }
- 
- 
+
  /**----------------------------------Pages Acerca de--------------------------------**/
  
  #mainacercade {
@@ -350,4 +312,15 @@ justify-content: center;
  
  /**------------Pages Entrevista-----------**/
  
- 
+ /**----Sistema responsivo----**/
+ /** imagenes grids**/ 
+ @media (max-width: 768px){
+    #relleno { grid-template-columns: repeat(1, 1fr);
+grid-template-rows: repeat(4, 300px);
+grid-template-areas: 
+"gridImg1"
+"gridImg4"
+"gridImg3"
+"gridImg2";
+}
+}

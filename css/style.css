@@ -154,27 +154,8 @@ iframe {
   border-radius: 50px;
 }
 
-@media (max-width: 768px) {
-  .logo img {
-    height: 60px;
-    margin-left: 5px;
-    border-radius: 40px;
-  }
-  _#header {
-    justify-content: left;
-  }
-  #header nav ul li a {
-    font-size: 15px;
-    text-align: center center;
-    padding: 5px;
-    align-items: start;
-  }
-  #relleno {
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(4, 300px);
-    grid-template-areas: "gridImg1" "gridImg4" "gridImg3" "gridImg2";
-  }
-}
+
+
 /**----------------------------------Pages Acerca de--------------------------------**/
 #mainacercade {
   background-color: black;
@@ -295,3 +276,104 @@ p {
 }
 }
 /*# sourceMappingURL=style.css.map */
+
+
+/**sistema responsivo header**/
+
+@media (max-width: 768px) {
+  .logo img {
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 40px;
+  }
+  _#header {
+    justify-content: left;
+  }
+  #header nav ul li a {
+    font-size: 15px;
+    text-align: center center;
+    padding: 5px;
+    align-items: start;
+  }
+  #relleno {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 300px);
+    grid-template-areas: "gridImg1" "gridImg4" "gridImg3" "gridImg2";
+  }
+}
+
+
+/** sistema responsivo footer y main**/ 
+
+
+
+
+
+@media (max-width: 768px) {
+
+.cremaClick img {
+    display: none;
+    
+  }
+
+  .copyright p {
+display: none;
+
+  }
+  
+  #caja1 {
+  width: 100%;
+  justify-content: center center;
+  align-items: center center;
+  }
+  
+.ifram {
+  width: 100%;
+}
+#videos {
+width: 40%;
+padding: 0;
+justify-content: center center;
+align-items: center center;
+}
+.imagenes__portada {
+  align-items: flex-start;
+  width: 20%;
+}
+
+
+  }
+
+
+
+
+  @media (max-width: 480px) {
+
+    #line {
+      display: none;
+    }
+    .copyright { 
+      display:none;}
+  .cremaClick {
+      width: 100%;
+      justify-content: center center;
+      align-items: center;
+      padding-left: 30px;
+    }
+    .icons img { display: flex;
+      flex-direction: column;
+    }
+    #videos {
+      width: 20%;
+      padding: 0;
+      justify-content: center center;
+      align-items: center center;
+      }
+.imagenes__portada {
+display: none
+
+
+}
+
+  }
+
