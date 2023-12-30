@@ -3,36 +3,30 @@
     padding: 0;
     box-sizing: border-box; 
     border: 0;
- }
- /*Header*/
- 
+}
+/*Header*/ 
+/*-----------Main----------------*/
 
+body iframe {
+margin-top:90px;
+width: 100%;
+height: 555px;
+justify-content: center center;
+}
 
- 
- /*-----------Main----------------*/
- 
- body iframe {
-     margin-top:90px;
-     width: 100%;
-     height: 555px;
-     justify-content: center center;
- 
- }
- 
- body{
-    
-     width: 100%vh;
-     height: 100%;
- }
- body {
- background-image: url(../images/fondo3.jpg);
- background-repeat:no-repeat;
- background-position: center center;
- background-attachment: scroll;
- background-size: cover;
- width: 90%;
- height: 100%;
- }
+body{
+width: 100%vh;
+height: 100%;
+}
+body {
+background-image: url(../images/fondo3.jpg);
+background-repeat:no-repeat;
+background-position: center center;
+background-attachment: scroll;
+background-size: cover;
+width: 90%;
+height: 100%;
+}
 
 #videos { 
     width: 100%;
@@ -58,70 +52,70 @@ justify-content: center;
 }
 
 .imagenes__portada img { 
- width: 550px;
- height: 550px;
- margin-top: 100px;
- justify-content: center center;
- border-radius: 50px;
-  }
- 
- 
- /*-----------Footer-------------*/
- 
- #footer {
- width: 100%;
- height: 300px;
- background-color: black;
- display: flex;
- }
- 
- #line {
- border-left: 2px solid;
- color:white;
- height: 80%;
- align-items: center;
- margin-top: 30px;
- }
- 
- 
- 
- .icons img {
- width: 30px;
- padding: 5px;
- margin: 5px;
- height: 30px;
- border: 1px double white;
- border-radius: 100%;
- }
- 
- .cremaClick {
- width: 400px;
- height: 90px;
- border: none;
- border-radius: none;
- padding: 10px;
- 
- }
- 
- #caja1{
- display: flex;
- align-items: center;
- flex-direction: column;
- justify-content: center;
- width: 50%;
- padding: 10px;
- }
- 
- 
- 
- #caja2 {
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- width: 50%;
- }
- 
+width: 550px;
+height: 550px;
+margin-top: 100px;
+justify-content: center center;
+border-radius: 50px;
+}
+
+
+/*-----------Footer-------------*/
+
+#footer {
+width: 100%;
+height: 300px;
+background-color: black;
+display: flex;
+}
+
+#line {
+border-left: 2px solid;
+color:white;
+height: 80%;
+align-items: center;
+margin-top: 30px;
+}
+
+
+
+.icons img {
+width: 30px;
+padding: 5px;
+margin: 5px;
+height: 30px;
+border: 1px double white;
+border-radius: 100%;
+}
+
+.cremaClick {
+width: 400px;
+height: 90px;
+border: none;
+border-radius: none;
+padding: 10px;
+
+}
+
+#caja1{
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+width: 50%;
+padding: 10px;
+}
+
+
+
+#caja2 {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 50%;
+}
+
 .bigFecaZhen img {
 width: 300px;
 height: auto;
@@ -218,103 +212,87 @@ justify-content: center ;
 
 
 .gridImag5 { background-image: url(../images/seccionimagenes.jpg);
-     background-size: cover;
- }
-     
- .gridImag6 { background-image: url(../images/fondo2.jpg);
-     
-     }
-     
- .gridImag7 { background-image: url(../images/images3.jpg);
-     
-     
-     }
- 
- .slide {
-     margin-top: 20px;
-     
-     
- }
- 
- .slide img {
- height: 700px;
- margin-left: 30%;
- border-radius: 50px;
- }
+background-size: cover;
+}
+.gridImag6 { background-image: url(../images/fondo2.jpg);
+}
+.gridImag7 { background-image: url(../images/images3.jpg);
+}
 
- /**----------------------------------Pages Acerca de--------------------------------**/
- 
- #mainacercade {
-     background-color: black;
-     border: 1px solid white;
-     border-top: 2px solid white;
- }
- 
- #bigFeca {
-     display: flex;
-     align-items:center;
-         background-image: url(../images/acercadefeca.webp);
-        width: 100%;
-        height: 2000px;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
- 
-            
- }
- 
- 
- .parrafo {
- font-size: 30px;
- color: white;
- overflow: hidden;
- width: 400px;
- height: 700px;
- text-align: right;
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
- 
- }
- 
- #Zhen {
-     display: flex;
-     align-items:center;
-         background-image: url(../images/fotos/zhen.jpg);
-        width: 100%;
-        height: 2000px;
-        background-repeat: no-repeat;
-        background-size: cover;
- 
- 
- }
-   
- #Zhen p {
-     font-size: 30px;
- color: white;
- overflow: hidden;
- width: 350px;
- height: 600px;
- text-align: right;
- font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
- 
- }
- 
- /**------------Pages Studio-------------**/
- 
- #carouselExampleCaptions img {
-     width: 800px;
-     height: 800px;
-     padding: 80px;
-     margin-left: 20%;
- 
- }
- 
- /**------------Pages Entrevista-----------**/
- 
- /**----Sistema responsivo----**/
- /** imagenes grids**/ 
- @media (max-width: 768px){
+.slide {
+margin-top: 20px;
+}
+
+.slide img {
+height: 700px;
+margin-left: 30%;
+border-radius: 50px;
+}
+
+/**----------------------------------Pages Acerca de--------------------------------**/
+
+#mainacercade {
+background-color: black;
+border: 1px solid white;
+border-top: 2px solid white;
+}
+
+#bigFeca {
+display: flex;
+align-items:center;
+background-image: url(../images/acercadefeca.webp);
+width: 100%;
+height: 2000px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parrafo {
+font-size: 30px;
+color: white;
+overflow: hidden;
+width: 400px;
+height: 700px;
+text-align: right;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Zhen {
+display: flex;
+align-items:center;
+background-image: url(../images/fotos/zhen.jpg);
+width: 100%;
+height: 2000px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#Zhen p {
+    font-size: 30px;
+color: white;
+overflow: hidden;
+width: 350px;
+height: 600px;
+text-align: right;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+
+/**------------Pages Studio-------------**/
+
+#carouselExampleCaptions img {
+width: 800px;
+height: 800px;
+padding: 80px;
+margin-left: 20%;
+}
+
+/**------------Pages Entrevista-----------**/
+
+/**----Sistema responsivo----**/
+/** imagenes grids**/ 
+@media (max-width: 768px){
     #relleno { grid-template-columns: repeat(1, 1fr);
 grid-template-rows: repeat(4, 300px);
 grid-template-areas: 
@@ -324,3 +302,4 @@ grid-template-areas:
 "gridImg2";
 }
 }
+

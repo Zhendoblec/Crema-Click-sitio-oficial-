@@ -309,7 +309,41 @@ p {
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 480px) {
+    #footer {
+      display: inline-block;
+          }
+    #line {
+      display: none;
+    }
+    .copyright { 
+      display:none;}
+  .cremaClick {
+      width: 100%;
+      justify-content: center center;
+      align-items: center;
+      padding-left: 30px;
+    }
+    #caja1 {
+      flex-direction: row;
+      justify-content: center ;
+    }
+    .icons {
+      align-items: center center;
+    }
+    #videos {
+      width: 20%;
+      padding: 0;
+      justify-content: center center;
+      align-items: center center;
+      }
+.imagenes__portada {
+display: none
+
+
+}
+
+  } 
 
 .cremaClick img {
     display: none;
@@ -341,14 +375,13 @@ align-items: center center;
   width: 20%;
 }
 
-
-  }
-
-
-
-
   @media (max-width: 480px) {
-
+    #footer {
+      display: flex;
+      flex-direction:column-reverse;
+      justify-content: center;
+      align-items: center;
+          }
     #line {
       display: none;
     }
@@ -360,20 +393,31 @@ align-items: center center;
       align-items: center;
       padding-left: 30px;
     }
-    .icons img { display: flex;
-      flex-direction: column;
+    #caja1 {
+      flex-direction: row;
+      justify-content: center ;
+    }
+    .icons {
+      align-items: center center;
     }
     #videos {
-      width: 20%;
+      font-size: 50px;
       padding: 0;
       justify-content: center center;
       align-items: center center;
       }
-.imagenes__portada {
-display: none
+      #caja2 {
+        display: flex;
+      }
+
 
 
 }
 
-  }
+/** responsive index contenido**/ 
+
+@media (max-width: 768px) {
+
+
+}
 
